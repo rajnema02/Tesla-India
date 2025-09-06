@@ -765,7 +765,7 @@ div#preloader {
     transition: all 0.4s ease 0s;
     z-index: 222;
     background: #fd5f16;
-    width: 160px;
+    width: 220px;
 }
 .ready-btn:hover{
     color: #fff;
@@ -1661,7 +1661,7 @@ div#preloader {
 .faq-details a span.acc-icons::before {
     color: #666;
     content:"\e874 ";
-    font-family: tionscal;
+    font-family: TTIL;
     font-size: 16px;
     left: -26px;
     line-height: 39px;
@@ -1672,7 +1672,7 @@ div#preloader {
 .faq-details a.active span.acc-icons::before {
     color: #fd5f16;
     content: "\e873";
-    font-family: tionscal;
+    font-family: TTIL;
     font-size: 16px;
     left: -26px;
     line-height: 39px;
@@ -1845,7 +1845,7 @@ div#preloader {
     content: "\e87a";
     right: auto;
     top: 2px;
-    font-family: tionscal;
+    font-family: TTIL;
     font-size: 12px;
     left: 0;
 }
@@ -1930,7 +1930,7 @@ div#preloader {
     content: "\e87f";
     left: 0;
     top: 3px;
-    font-family: tionscal;
+    font-family: TTIL;
     color: #fd5f16;
     font-weight: 700;
 }
@@ -2660,7 +2660,7 @@ div#preloader {
 .left-blog ul li a:before {
     position: absolute;
     content: "\e87a";
-    font-family: tionscal;
+    font-family: TTIL;
     left: 0px;
     top: 10px;
     font-size: 14px;
@@ -3045,7 +3045,7 @@ span.email-notes{color: #42414f;
 }
 .left-menu ul li.active a::after, .left-menu ul li a:hover::after {
     content: "\e87a";
-    font-family: tionscal;
+    font-family: TTIL;
     font-size: 16px;
     position: absolute;
     right: 10px;
@@ -3158,7 +3158,7 @@ span.email-notes{color: #42414f;
     content: "\e886";
     left: 0;
     top: 3px;
-    font-family: tionscal;
+    font-family: TTIL;
     color: #fd5f16;
     font-weight: 700;
 }
