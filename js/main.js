@@ -306,5 +306,20 @@ windows.on('scroll', function() {
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 	}
+
     
-})(jQuery); 
+/*----------------------------
+    Navbar Active Link Highlight
+------------------------------*/
+$(document).ready(function() {
+    var currentPath = window.location.pathname.split("/").pop();
+    $('#dropdown .pagess').each(function() {
+        var linkPath = $(this).attr('href');
+        if (linkPath === currentPath) {
+            $(this).addClass('active');
+        }
+    });
+});
+
+})(jQuery);
+    
